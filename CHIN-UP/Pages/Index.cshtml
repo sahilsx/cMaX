@@ -1,0 +1,197 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .center{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    .card1{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        padding: 10px  10px;
+        background-color: black;
+        transition: 0.3s;
+        width: 98.5%;
+       height:450px;
+     }
+     .imgs{
+        width: 100%;
+        height: 450px;
+        border-radius: 5px 5px 0 0;
+        margin-bottom:20px;
+     }
+
+    .card1 strong{
+        position:absolute;
+        top:70%;
+        left:20%;
+        color:white;
+        font-size:30px;
+        font-family:'Times New Roman';
+
+
+
+
+    }
+   .container2 a{
+    text-decoration: none;
+    color:silver;
+    font-size:larger;
+    font-family:sans-serif;
+    height:10px;
+   }
+
+    .explorer{
+        display: flex;
+        background-color:brown;
+        color:silver;
+        align-items:center;
+        justify-content:center;
+        height:70px;
+
+
+
+
+
+    }
+    .cardscnt{
+     display:flex;
+     width:100%;
+     flex-wrap:wrap;
+
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        padding: 10px;
+        background-color:black;
+        transition: 0.3s;
+        width:31.5%;
+        cursor:pointer;
+        
+        
+    }
+
+     .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            transform:scale(1.05);
+            
+        }
+
+    .container {
+       padding-bottom:10px;
+        text-align: center;
+    }
+
+    .imgx{
+        width: 100%;
+        height:300px;
+        margin-bottom:30px;
+        border-radius: 5px 5px 0 0;
+    }
+
+
+
+    .container a {
+        text-decoration: none;
+        color:silver;
+        font-size:larger;
+        font-family:sans-serif;
+        
+    }
+
+
+
+
+
+</style>
+<div class="center">
+    <div class="card1">
+        <img class="imgs" src="~/css/pexels-hygor-sakai-2311713.jpg" alt="Avatar">
+        <strong>One good thing about music, when it hits you, you feel no pain</strong>
+
+
+    </div>
+
+
+</div>
+
+
+<div class="explorer">
+    <strong> EXPLORE  YOUR    FAVOURITE    SONGS   HERE   </strong>
+
+
+
+
+
+
+
+
+     
+</div>
+
+
+
+<div class="cardscnt">
+     <div class="card">
+    <img class="imgx"src="~/css/pexels-hygor-sakai-2311713.jpg"  alt="Avatar">
+    <div class="container">
+            <a asp-area="" asp-page="/about">Trending Songs</a>
+    </div>
+     </div>
+    <div class="card">
+    <img class="imgx" src="~/img/images (2).jpg" alt="Avatar">
+    <div class="container">
+            <a asp-area="" asp-page="/about">2023 Latest songs</a>
+    </div>
+    </div>
+   <div class="card">
+    <img class="imgx" src="~/img/m1 (3).jpg" alt="Avatar">
+    <div class="container">
+            <a asp-area="" asp-page="/about">New Releases</a>
+    </div>
+    </div>
+    <div class="card">
+        <img class="imgx" src="~/css/pexels-wendy-wei-1190298.jpg" alt="Avatar">
+        <div class="container">
+            <a asp-area="" asp-page="/about">Party Songs</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imgx" src="~/css/pexels-eric-esma-894156.jpg" alt="Avatar">
+        <div class="container">
+            <a asp-area="" asp-page="/about">Sad Songs</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imgx" src="~/img/m1 (2).jpg" alt="Avatar">
+        <div class="container">
+            <a asp-area="" asp-page="/about">Mashup Songs</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imgx" src="~/css/pexels-matthias-groeneveld-4200745.jpg" alt="Avatar">
+        <div class="container">
+            <a asp-area="" asp-page="/about">0ld Songs</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imgx" src="~/css/pexels-themrsingh-18023555.jpg" alt="Avatar">
+        <div class="container">
+            <a asp-area="" asp-page="/about">Punjabi Songs</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imgx" src="~/css/pexels-victor-freitas-733767.jpg" alt="Avatar">
+        <div class="container">
+            <a asp-area="" asp-page="/about">HipHop Songs</a>
+        </div>
+    </div>
+
+</div>

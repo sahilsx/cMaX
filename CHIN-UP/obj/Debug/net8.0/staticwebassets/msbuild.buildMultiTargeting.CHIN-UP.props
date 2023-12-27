@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CHIN-UP.props" />
+</Project>

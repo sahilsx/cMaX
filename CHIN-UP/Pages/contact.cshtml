@@ -1,0 +1,212 @@
+﻿@page
+@model CHIN_UP.Pages.contactModel
+@{
+}
+<style>
+    .contact {
+        width: 45%;
+        margin: 10px 2%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 20px 40px;
+        background-color: cadetblue;
+    }
+
+    .form-label {
+        font-size: 22px;
+        display:block;
+    }
+
+    .form-label1 {
+        font-size: 22px;
+        display: block;
+        margin-top:10px;
+    }
+
+    .form-input-email {
+        width: 80%;
+        border: 1px solid blue;
+        border-radius: 20px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 5px 20px;
+        font-family: sans-serif;
+        background-color: rgb(250, 228, 228);
+    }
+
+    .form-input1 {
+        width: 80%;
+        border: 1px solid blue;
+        border-radius: 20px;
+        height: 200px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px 20px;
+        font-family: sans-serif;
+        background-color: rgb(250, 228, 228);
+    }
+
+    .regx {
+        background-color: rgb(44, 44, 216);
+        color: rgb(218, 252, 252);
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 5px 20px;
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+
+        .regx:hover {
+            background-color: red;
+            color: pink;
+            z-index: 1;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+
+    .ftn {
+        font-family: sans-serif;
+        width:100%;
+        font-size:10PX;
+        margin-top:30px;
+        display:block;
+        color: black;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+
+    .contact strong {
+        font-size: 32px;
+        color: white;
+        text-shadow: 2px 2px 5px purple;
+    }
+    .columns {
+  float: left;
+  display:flex;
+   height:70vh;
+  padding: 8px;
+  margin-left:45px
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+            box-shadow: 0 8px 12px 0 rgb(15, 24, 194, 0.25)
+        }
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  font-family:sans-serif;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+  border: 1px solid BLACK;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+ .button:hover{
+  background-color:palevioletred;
+  color: white;
+  transform: scale(1.2);
+
+ }
+
+.cp{
+
+  display:flex;
+  background-color:dimgray;
+}
+
+
+
+</style>
+<div class="cp">
+<form action="register.php" method="post" class="contact">
+    <strong class="nym"><i class="fa fa-hand-spock-o" aria-hidden="true"></i>ChinUp</></strong>
+    <h1>
+        contact us
+    </h1>
+
+
+
+    <label class="form-label">Email </label>
+    <input class="form-input-email" type="email" placeholder="Enter your Email here " required> <br>
+    <div class="text"> we will never share your personal data with others</div>
+    <label class="form-label1" > message </label>
+
+    <textarea name="Message" class="form-input1" cols="30" rows="10"></textarea>
+
+    <button class="regx" type="submit"> submit</button>
+
+
+    <a class="ftn" asp-area="" asp-page="/login">Privacy· Terms · Advertising · Ad choices · Cookies· Meta©2023</a>
+
+</form>
+
+
+<div class="columns">
+    <ul class="price">
+        <li class="header">Basic</li>
+        <li class="grey">$ 9.99 / year</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> 10GB Storage</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Ad-free music listening</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> background play</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Download 10k songs/device on 3 devices</li>
+        <li class="grey"><a href="#" class="button">BUY</a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+        <li class="header" style="background-color:#04AA6D">Pro</li>
+        <li class="grey">$ 24.99 / year</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i> 20GB Storage</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i> Ad-free music listening</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i> background play</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i> Download 10k songs/device on 3 devices</li>
+        <li class="grey"><a href="#" class="button">BUY</a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+        <li class="header">Premium</li>
+        <li class="grey">$ 49.99 / year</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> 30GB Storage</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Ad-free music listening</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> background play</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Download 10k songs/device on 5 devices</li>
+        <li class="grey"><a href="#" class="button">BUY</a></li>
+    </ul>
+</div>
+</div>

@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CHIN_UP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   
+</head>
+<body>
+    <div class="hdr">
+       <div class ="navbar">
+            <div class="dropdown">
+                <li class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></li>
+                <div class="dropdown-content">
+                    <a asp-area="" asp-page="/Primelist"><i class="fa fa-plus-square" aria-hidden="true"></i> My Playlist</a>
+                    <a asp-area="" asp-page="/register"><i class="fa fa-download" aria-hidden="true"></i> Downloads</a>
+                    <a asp-area="" asp-page="/register"><i class="fa fa-volume-up" aria-hidden="true"></i> Sound Quality</a>
+                    <a asp-area="" asp-page="/register"><i class="fa fa-language" aria-hidden="true"></i> Language</a>
+                </div>
+            </div>
+         
+
+           <strong class="nym"><i class="fa fa-hand-spock-o " aria-hidden="true" style="color:deeppink"; background-color:green></i>ChinUp</></strong> 
+
+
+
+
+           <div class="navbar-left">
+
+                 <a asp-area="" asp-page="/index"><i class="fa fa-home"></i> HOME</a>
+                <a asp-area="" asp-page="/services"><i class="fa fa-wrench" aria-hidden="true"></i> SERVICES</a>
+                <a asp-area="" asp-page="/contact"><i class="fa fa-phone-square" aria-hidden="true"></i> CONTACT</a>
+                <a asp-area="" asp-page="/about"><i class="fa fa-th-large" aria-hidden="true"></i> ABOUT</a>
+
+
+           </div>
+
+
+            <div class="searchbox">
+
+
+                <form action="./about.html" method="post">
+                    <input class="search" type="search" placeholder="  Search For Songs" required>
+                    <button class="btn-search" type="submit"><i class="fa fa-search icon_search "  aria-hidden="true" style="color:black;"></i> </button>
+                </form>
+
+            </div>
+
+
+         <div class="buttons">
+
+
+                <div class="btn">
+                    <a asp-area="" asp-page="/register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
+                </div>
+                <div class="btn">
+                    <a asp-area="" asp-page="/login"><i class="fa fa-user" aria-hidden="true"></i>  Login</a>
+                </div>
+
+
+               
+
+         </div>
+         
+
+
+
+
+
+
+           
+
+       </div>
+        <div class="search-songs">
+            <a asp-area="" asp-page="/index">Trending</a>
+            <a asp-area="" asp-page="/index"> Bollywood</a>
+            <a asp-area="" asp-page="/services">Hollywood</a>
+            <a asp-area="" asp-page="/contact">DjRemix</a>
+            <a asp-area="" asp-page="/Ghazals">Mp3/Mp4</a>
+            <a asp-area="" asp-page="/about">Ringtones</a>
+            <a asp-area="" asp-page="/index">Hellotunes </a>
+            <a asp-area="" asp-page="/about">Newly updated</a>
+           
+
+
+
+
+        </div>
+
+    </div>
+   
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container1">
+
+           <div class="footer">
+            <ul>
+                <h1>COMPANY</h1>
+                <li> <a asp-area="" asp-page="/index">Copyright 2023 all rights resererved </a></li>
+                <li> <a asp-area="" asp-page="/index">Privacy & Policy </a></li>
+                <li> <a asp-area="" asp-page="/index">Version & Updates </a></li>
+                <li> <a asp-area="" asp-page="/index">Disclaimer </a></li>
+                <li> <a asp-area="" asp-page="/index">feedback Us </a></li>
+
+            </ul>
+          </div>
+
+
+
+
+
+
+
+        <div class ="footer">
+            <ul >
+                <h1>CONTACT</h1>
+
+                <li> <a asp-area="" asp-page="/index">itx@saaho.com </a></li>
+
+                <li> <a asp-area="" asp-page="/index">7780922090</a></li>
+
+
+            </ul>
+        </div>
+
+
+
+
+
+            <div class="footer">
+            <ul>
+                <h1>ABOUT</h1>
+                <P>
+
+                    CHINUP Music is the most entertaining source that keeps you entertained all time. CHINUP provides unlimited entertainment MP3 Songs for people who enjoy listening to Hindi Mp3 songs. CHINUP is a safe, reliable and quick website that allows you download for unlimited Hindi music. Find the newest and best music from the best that includes Bollywood Latest, Classics, Hindi, Ghazals, Indipop and Punjabi music! It's an extremely simple and clean  website to listen to music.CHINUP is a platform that allows you to find the best collection of mp3 songs.
+
+
+
+                </P>
+            </ul>
+           </div>
+
+
+
+
+
+         <div class="icons">
+            <ul>
+                <h1>FOLLOW US</h1>
+                <a asp-area="" asp-page="/index"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: small;">  ChinuPX </i> </a>
+                <a asp-area="" asp-page="/index"><i class="fa fa-instagram" aria-hidden="true" style="font-size: small;"> ChinUp09X</i> </a>
+                <a asp-area="" asp-page="/index"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: small;">  +91 7780922090 </i> </a>
+                <a asp-area="" asp-page="/index"> <i class="fa fa-twitter" aria-hidden="true" style="font-size: small;">  ChinuPX </i> </a>
+            </ul>
+         </div>
+
+            <strong>    <i class="fa fa-copyright" aria-hidden="true"></i>  2023_<i class="fa fa-hand-spock-o" aria-hidden="true"></i>ChinUp</></strong>
+            
+
+        </div>
+    </footer>
+
+   
+   
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

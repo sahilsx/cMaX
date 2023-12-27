@@ -1,0 +1,95 @@
+﻿@page
+@model CHIN_UP.Pages.PrimelistModel
+@{
+}
+<style>
+ .tb{
+     width:98.5%;
+     height:200vh;
+     background-color:dimgray;
+     padding-left:20px;
+     
+ }
+
+    .table {
+        margin-left:25px;
+        margin-top:10px;
+        border-collapse: collapse;
+
+
+
+    }
+
+    .table th{
+            margin-left: 25px;
+            padding:5px 5px;
+            font-family:'Yu Gothic';
+            border-bottom: 1px solid black;
+    }
+     
+    .table td{
+            padding: 5px 10px;
+            font-family:'Times New Roman';
+            border-bottom: 1px solid black;
+
+    }
+    .btnx{
+      text-decoration:none;
+       border-radius:5px;
+       padding:2px 8px;
+      background-color:blue;
+      color:silver;
+      margin:5px auto
+
+    }
+
+    .btnx:hover{
+        transform:scale(2);
+
+
+
+
+    }
+
+</style>
+
+<div class="tb">    
+<br>
+
+<h2>
+    List of the elite members
+</h2>
+
+<a class="btnx" href="/Create"> New Member</a>
+<table class=" table">
+    <thead >
+        <tr>
+            <th class="th">  Id</th>
+            <th class="th">  Member_Name</th>
+            <th class="th">  Membership</th>
+            <th class="th"> Membership_Duration</th>
+            <th class="th"> joined_on</th>
+            <th class="th">  Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.members)
+        {
+            <tr>
+
+                <td>@item.Id</td>
+                <td>@item.Member_Name</td>
+                <td>@item.Membership</td>
+                <td>@item.Membership_Duration</td>
+                <td>@item.joined_on</td>
+                <td>
+                    <a class=" btnx" href="/Edit?id=@item.Id"> Edit</a>
+                    <a class=" btnx" href="/Delete?id=@item.Id">Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

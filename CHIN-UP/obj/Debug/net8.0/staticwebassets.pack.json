@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CHIN-UP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CHIN-UP.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\chinup (1).png",
+      "PackagePath": "staticwebassets\\css\\chinup (1).png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\chinup.png",
+      "PackagePath": "staticwebassets\\css\\chinup.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\images (1).jpg",
+      "PackagePath": "staticwebassets\\css\\images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\m1 (4).jpg",
+      "PackagePath": "staticwebassets\\css\\m1 (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\pexels-eric-esma-894156.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-eric-esma-894156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\pexels-hygor-sakai-2311713.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-hygor-sakai-2311713.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\pexels-matthias-groeneveld-4200745.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-matthias-groeneveld-4200745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\pexels-themrsingh-18023555.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-themrsingh-18023555.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\pexels-victor-freitas-733767.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-victor-freitas-733767.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\pexels-wendy-wei-1190298.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-wendy-wei-1190298.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\Screenshot (137).png",
+      "PackagePath": "staticwebassets\\img\\Screenshot (137).png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\images (1).jpg",
+      "PackagePath": "staticwebassets\\img\\images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\images (2).jpg",
+      "PackagePath": "staticwebassets\\img\\images (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\images (3).jpg",
+      "PackagePath": "staticwebassets\\img\\images (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\images (4).jpg",
+      "PackagePath": "staticwebassets\\img\\images (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\images (5).jpg",
+      "PackagePath": "staticwebassets\\img\\images (5).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\m1 (1).jpg",
+      "PackagePath": "staticwebassets\\img\\m1 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\m1 (2).jpg",
+      "PackagePath": "staticwebassets\\img\\m1 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\m1 (3).jpg",
+      "PackagePath": "staticwebassets\\img\\m1 (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\img\\m1 (4).jpg",
+      "PackagePath": "staticwebassets\\img\\m1 (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\CHIN-UP\\CHIN-UP\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CHIN-UP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CHIN-UP.props",
+      "PackagePath": "build\\CHIN-UP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CHIN-UP.props",
+      "PackagePath": "buildMultiTargeting\\CHIN-UP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CHIN-UP.props",
+      "PackagePath": "buildTransitive\\CHIN-UP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
